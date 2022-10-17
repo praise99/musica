@@ -45,18 +45,18 @@ const SideContainer = styled.div`
 export default function Layout({ children }: LayoutProps) {
   return (
     <Wrapper>
-      <NavContainer>
+      {/* <NavContainer>
         <Sidebar />
       </NavContainer>
       <SideContainer>
         <div className="header">
           <Header />
-        </div>
-        <div className="content">{children}</div>
-        <div className="footer">
+        </div> */}
+      <div className="content">{children}</div>
+      {/* <div className="footer">
           <Footer />
         </div>
-      </SideContainer>
+      </SideContainer> */}
     </Wrapper>
   );
 }

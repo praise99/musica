@@ -3,14 +3,14 @@ const Wrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-family: ${({ theme }) => theme.fontFamily.Quicksand};
+  font-style: normal;
 `;
 const LeftSide = styled.div`
   width: 61%;
   background: #609eaf;
   padding: 38px 45px;
   border-radius: 40px;
-  font-family: ${({ theme }) => theme.fontFamily.Quicksand};
-  font-style: normal;
   background-color: ${({ theme }) => theme.colors.card};
   height: 373px;
   display: flex;

@@ -12,10 +12,16 @@ import Love from "./svg/love.svg";
 import Guy from "./svg/guy.svg";
 import Vector from "./svg/vector.svg";
 import Like from "./svg/like.svg";
-
 import First from "./svg/first.svg";
 import Second from "./svg/second.svg";
 import Third from "./svg/third.svg";
+import Release1 from "./svg/release1.svg";
+import Release2 from "./svg/release2.svg";
+import Release3 from "./svg/release3.svg";
+import Release4 from "./svg/release4.svg";
+import Release5 from "./svg/release5.svg";
+import Release6 from "./svg/release6.svg";
+import Release7 from "./svg/release7.svg";
 export {
   Logo,
   Search,
@@ -34,4 +40,11 @@ export {
   First,
   Second,
   Third,
+  Release1,
+  Release2,
+  Release3,
+  Release4,
+  Release5,
+  Release6,
+  Release7,
 };
