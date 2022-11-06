@@ -16,6 +16,12 @@
     "incremental": true,
     "baseUrl": "."
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "common/layout/footer/index.jsx",
+    "context/playerContext.js"
+  ],
   "exclude": ["node_modules"]
 }

@@ -22,14 +22,9 @@ const fontSize = {
   x35: "35px",
 };
 const responsive = {
-  verySmall: "320px",
-  sm: "600px",
-  mb: "700px",
-  lg: "1100px",
-  xxl: "1024px",
-  xxl2: "1200px",
-  xx2: "1150px",
-  xx3: "1440px",
+  ipad: "768px",
+  mobile: "600px",
+  laptop: "992px",
 };
 
 const fontFamily = {

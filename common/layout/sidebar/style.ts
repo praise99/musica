@@ -20,6 +20,10 @@ const IconsWrapper = styled.div`
   border-radius: 32px;
   width: 52px;
   margin-top: 20px;
+  .active {
+    color: yellow;
+    opacity: 1;
+  }
 
   a {
     margin-top: 28px;

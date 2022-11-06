@@ -22,7 +22,22 @@ import Release4 from "./svg/release4.svg";
 import Release5 from "./svg/release5.svg";
 import Release6 from "./svg/release6.svg";
 import Release7 from "./svg/release7.svg";
+import Tomorrow from "./svg/tomorrow.svg";
+import PlayDetail from "./svg/play-small.svg";
+import LoveDetail from "./svg/love-small.svg";
+import SquareDetail from "./svg/music square.svg";
+import Heart from "./svg/heart-icon.svg";
+import Option from "./svg/option.svg";
+import Music from "./svg/music-icon.svg";
+import PlayCard from "./svg/play-card.svg";
 export {
+  Heart,
+  Option,
+  Music,
+  Tomorrow,
+  PlayDetail,
+  LoveDetail,
+  SquareDetail,
   Logo,
   Search,
   Picture,
@@ -47,4 +62,5 @@ export {
   Release5,
   Release6,
   Release7,
+  PlayCard,
 };

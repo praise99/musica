@@ -5,11 +5,12 @@ const Wrapper = styled.div`
   height: 125px;
   font-family: ${({ theme }) => theme.fontFamily.Quicksand};
   font-style: normal;
-  background-color: ${({ theme }) => theme.colors.bgColor};
+  backdrop-filter: blur(7px) hue-rotate(20deg);
   filter: drop-shadow(0px -25px 100px rgba(16, 16, 16, 0.51));
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   input[type="range"] {
     -webkit-appearance: none;
     background-color: transparent;
@@ -104,9 +105,18 @@ const Top = styled.div`
   padding: 0px 40px;
   align-items: center;
   justify-content: space-between;
+  .none {
+    @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
+      display: none !important;
+    }
+  }
   .music_name {
     display: flex;
+    width: 34%;
     align-items: center;
+    @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
+      width: 80%;
+    }
     .description {
       padding-left: 10px;
       margin-top: -20px;
@@ -115,16 +125,29 @@ const Top = styled.div`
       }
       .descColor {
         color: rgba(255, 255, 255, 0.44);
+        margin-top: 5px;
       }
     }
   }
   .music_control {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 20%;
+    justify-content: center;
+    width: 34%;
     margin-top: -20px;
-
+    @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
+      width: 20%;
+    }
+    .previous {
+      margin-left: 48px;
+    }
+    .next {
+      margin-right: 48px;
+      @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+    }
     .pointer {
       cursor: pointer;
     }
@@ -132,6 +155,8 @@ const Top = styled.div`
   .music_volume {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 33%;
     .range {
       padding-left: 15px;
       margin-top: -10px;
@@ -152,5 +177,25 @@ const Bottom = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 15px;
+  @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
+    display: none;
+  }
 `;
-export { Wrapper, Top, Bottom };
+const Cover = styled.div`
+  display: flex;
+  align-items: center;
+  height: 25.545289993286133px;
+  width: 25px;
+  border-radius: 99.16666412353516px;
+  padding: 8px;
+  background-color: ${({ theme }) => theme.colors.secondary};
+  box-shadow: 0px 0px 18px rgba(255, 255, 255, 0.3);
+  justify-content: center;
+  margin: 0px 44px;
+  @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
+    margin: 0px 0px;
+  }
+  cursor: pointer;
+`;
+export { Wrapper, Top, Bottom, Cover };

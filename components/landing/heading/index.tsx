@@ -10,6 +10,7 @@ import {
 import { Love, People, Guy, Vector, First, Like } from "assets";
 import Image from "next/image";
 import { FirstSection } from "./data";
+import Link from "next/link";
 const Header = () => {
   return (
     <Wrapper>
@@ -49,23 +50,38 @@ const Header = () => {
         <Cards>
           {FirstSection.map((item) => {
             return (
-              <Card key={item.id}>
-                <div className="each-card">
+              <Link href={`${item.route}`} key={item.id}>
+                <Card>
+                  <div className="each-card">
+                    <div
+                      style={{
+                        width: "63px",
+                        height: "63px",
+                        borderRadius: "10px",
+                        overflow: "hidden",
+                      }}
+                    >
+                      <Image
+                        width="63px"
+                        height="63px"
+                        src={item.image}
+                        alt="image"
+                        objectFit="cover"
+                      />
+                    </div>
+                    <div className="desc">
+                      <TextRegular17>{item.title}</TextRegular17>
+                      <TextRegular12 className="name">
+                        {item.artist}
+                      </TextRegular12>
+                      <TextRegular12>{item.time}</TextRegular12>
+                    </div>
+                  </div>
                   <div>
-                    <Image src={item.image} alt="pic" />
+                    <Image className="pointer" src={Like} alt="pic" />
                   </div>
-                  <div className="desc">
-                    <TextRegular17>{item.title}</TextRegular17>
-                    <TextRegular12 className="name">
-                      {item.artist}
-                    </TextRegular12>
-                    <TextRegular12>{item.time}</TextRegular12>
-                  </div>
-                </div>
-                <div>
-                  <Image className="pointer" src={Like} alt="pic" />
-                </div>
-              </Card>
+                </Card>
+              </Link>
             );
           })}
         </Cards>

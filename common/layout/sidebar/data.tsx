@@ -14,40 +14,40 @@ const FirstSection: ILinks[] = [
   {
     id: 1,
     title: "Home",
-    image: <HomeIcon fill="currentColor" fill-opacity="opacity" />,
-    route: "/home",
+    image: <HomeIcon fill="currentColor" fillOpacity="opacity" />,
+    route: "/",
   },
   {
     id: 2,
     title: "Playlist",
-    image: <PlaylistIcon fill="currentColor" fill-opacity="opacity" />,
+    image: <PlaylistIcon fill="currentColor" fillOpacity="opacity" />,
     route: "/playlist",
   },
   {
     id: 3,
     title: "Radio",
-    image: <RadioIcon fill="currentColor" fill-opacity="opacity" />,
-    route: "/radio",
+    image: <RadioIcon fill="currentColor" fillOpacity="opacity" />,
+    route: "#",
   },
   {
     id: 4,
     title: "Videos",
-    image: <VideoIcon fill="currentColor" fill-opacity="opacity" />,
-    route: "/videos",
+    image: <VideoIcon fill="currentColor" fillOpacity="opacity" />,
+    route: "#",
   },
 ];
 const SecondSection: ILinks[] = [
   {
     id: 1,
     title: "Profile",
-    image: <ProfileIcon fill="currentColor" fill-opacity="opacity" />,
-    route: "/profile",
+    image: <ProfileIcon fill="currentColor" fillOpacity="opacity" />,
+    route: "#",
   },
   {
     id: 2,
     title: "Logout",
-    image: <LogoutIcon fill="currentColor" fill-opacity="opacity" />,
-    route: "/logout",
+    image: <LogoutIcon fill="currentColor" fillOpacity="opacity" />,
+    route: "#",
   },
 ];
 export { FirstSection, SecondSection };

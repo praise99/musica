@@ -15,7 +15,7 @@
 <circle cx="58" cy="12" r="10" fill="url(#pattern4)" shape-rendering="crispEdges"/>
 </g>
 <defs>
-<filter id="filter0_d_19_99" x="0" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_19_99" x="0" y="0" width="24" height="24" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-2"/>
@@ -28,7 +28,7 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_19_99" transform="translate(0 -0.000880282) scale(0.00176056)"/>
 </pattern>
-<filter id="filter1_d_19_99" x="11" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_d_19_99" x="11" y="0" width="24" height="24" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-2"/>
@@ -41,7 +41,7 @@
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_19_99" transform="scale(0.0078125)"/>
 </pattern>
-<filter id="filter2_d_19_99" x="22" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_d_19_99" x="22" y="0" width="24" height="24" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-2"/>
@@ -54,7 +54,7 @@
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image2_19_99" transform="translate(0 -0.244186) scale(0.00581395)"/>
 </pattern>
-<filter id="filter3_d_19_99" x="33" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter3_d_19_99" x="33" y="0" width="24" height="24" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-2"/>
@@ -67,7 +67,7 @@
 <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image3_19_99" transform="translate(0 -0.244186) scale(0.00581395)"/>
 </pattern>
-<filter id="filter4_d_19_99" x="44" y="0" width="24" height="24" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter4_d_19_99" x="44" y="0" width="24" height="24" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="-2"/>

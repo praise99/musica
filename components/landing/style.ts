@@ -4,6 +4,7 @@ const Wrapper = styled.div`
   height: -webkit-fill-available;
   background-color: ${({ theme }) => theme.colors.bgColor};
   padding: 20px;
-  height: 900px;
+  height: auto;
+  padding-bottom: 200px;
 `;
 export { Wrapper };
