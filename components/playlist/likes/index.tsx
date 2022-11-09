@@ -1,9 +1,7 @@
-import React from 'react'
-
+import React from "react";
+import { Wrapper } from "./style";
 const Likes = () => {
-  return (
-    <div>Likes</div>
-  )
-}
+  return <Wrapper>Likes</Wrapper>;
+};
 
-export default Likes
+export default Likes;
