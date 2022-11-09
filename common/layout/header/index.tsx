@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <Wrapper>
       <div className="input-box">
-        <Image src={Search} alt="search" />
+        <Image priority={true} src={Search} alt="search" />
         <input
           id="Search"
           onChange={(item) => {

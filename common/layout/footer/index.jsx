@@ -81,6 +81,7 @@ const Footer = () => {
               src={songslist[currentSong].track.share.image}
               alt="music"
               objectFit="cover"
+              priority={true}
             />
           </div>
           <div className="description">
@@ -94,10 +95,10 @@ const Footer = () => {
         </div>
         <div className="music_control">
           <div className="pointer none" onClick={toggleRandom}>
-            <Image src={Shuffle} alt="icons" />
+            <Image priority={true} src={Shuffle} alt="icons" />
           </div>
           <div className="pointer previous none" onClick={prevSong}>
-            <Image src={Previous} alt="icons" />
+            <Image priority={true} src={Previous} alt="icons" />
           </div>
           <Cover
             className="pointer"
@@ -133,15 +134,15 @@ const Footer = () => {
             )}
           </Cover>
           <div className="pointer next" onClick={nextSong}>
-            <Image src={Next} alt="icons" />
+            <Image priority={true} src={Next} alt="icons" />
           </div>
           <div className="pointer none" onClick={toggleRepeat}>
-            <Image src={Repeat} alt="icons" />
+            <Image priority={true} src={Repeat} alt="icons" />
           </div>
         </div>
         <div className="music_volume none">
           <div>
-            <Image src={Volume} alt="icons" />
+            <Image priority={true} src={Volume} alt="icons" />
           </div>
           <div className="range">
             <input

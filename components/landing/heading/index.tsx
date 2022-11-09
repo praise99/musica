@@ -28,10 +28,10 @@ const Header = () => {
           </div>
           <div className="flex">
             <div>
-              <Image src={People} alt="" />
+              <Image priority={true} src={People} alt="" />
             </div>
             <div className="love">
-              <Image src={Love} alt="" />
+              <Image priority={true} src={Love} alt="" />
             </div>
             <div>
               <TextRegular14>33k Likes</TextRegular14>
@@ -39,10 +39,10 @@ const Header = () => {
           </div>
         </div>
         <div className="absolute">
-          <Image src={Vector} alt="vector" />
+          <Image priority={true} src={Vector} alt="vector" />
         </div>
         <div className="image">
-          <Image src={Guy} alt="guy" />
+          <Image priority={true} src={Guy} alt="guy" />
         </div>
       </LeftSide>
       <RightSide>
@@ -78,7 +78,12 @@ const Header = () => {
                     </div>
                   </div>
                   <div>
-                    <Image className="pointer" src={Like} alt="pic" />
+                    <Image
+                      priority={true}
+                      className="pointer"
+                      src={Like}
+                      alt="pic"
+                    />
                   </div>
                 </Card>
               </Link>

@@ -76,7 +76,7 @@ const Collection = () => {
                     transition: "transform 300ms ease-in",
                   }}
                 >
-                  <Image src={PlayCard} alt="play" />
+                  <Image priority={true} src={PlayCard} alt="play" />
                 </div>
               )}
             </Content>

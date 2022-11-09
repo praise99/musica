@@ -58,7 +58,7 @@ const MusicList = () => {
                   />
                 </div>
                 <div className="none">
-                  <Image src={Heart} alt="music" />
+                  <Image priority={true} src={Heart} alt="music" />
                 </div>
               </div>
               <div className="title">
@@ -74,7 +74,7 @@ const MusicList = () => {
                   <TextRegular12>4:17</TextRegular12>
                 </div>
                 <div className="second">
-                  <Image src={Option} alt="music" />
+                  <Image priority={true} src={Option} alt="music" />
                 </div>
               </div>
             </Card>

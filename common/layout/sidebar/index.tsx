@@ -9,7 +9,7 @@ const Sidebar = () => {
   const router = useRouter();
   return (
     <Wrapper>
-      <Image src={Logo} alt="logo" />
+      <Image priority={true} src={Logo} alt="logo" />
       <IconsWrapper>
         {FirstSection.map((item) => {
           return (

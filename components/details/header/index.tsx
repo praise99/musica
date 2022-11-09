@@ -65,14 +65,14 @@ const Header = () => {
         </div>
         <div className="bottom">
           <Tag>
-            <Image src={PlayDetail} alt="data" />
+            <Image priority={true} src={PlayDetail} alt="data" />
             <TextRegular12 className="text">Play all</TextRegular12>
           </Tag>
           <Tag className="middle">
-            <Image src={SquareDetail} alt="data" />
+            <Image priority={true} src={SquareDetail} alt="data" />
             <TextRegular12 className="text">Add to collection</TextRegular12>
           </Tag>
-          <Image src={LoveDetail} alt="data" />
+          <Image priority={true} src={LoveDetail} alt="data" />
         </div>
       </div>
     </Wrapper>
