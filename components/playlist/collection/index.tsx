@@ -42,7 +42,7 @@ const Collection = () => {
                 border: "1px solid rgba(255, 255, 255, 0.03)",
                 opacity: "0.5",
                 transform: id === item.id && hover ? "scale(1.3)" : "scale(1)",
-                transition: "width 6s ease-in 1s",
+                transition: "transform 300ms ease-in-out",
               }}
             >
               <Image
@@ -62,9 +62,7 @@ const Collection = () => {
                 {id === item.id && hover && (
                   <div
                     style={{
-                      transitionDuration: "1000ms",
-                      transitionProperty: " all",
-                      transitionTimingFunction: " cubic-bezier(0.4, 0, 0.2, 1)",
+                      transition: "transform 300ms ease-in",
                     }}
                     className="title-below"
                   >
@@ -75,9 +73,7 @@ const Collection = () => {
               {id === item.id && hover && (
                 <div
                   style={{
-                    transitionDuration: "700ms",
-                    transitionProperty: " all",
-                    transitionTimingFunction: " cubic-bezier(0.4, 0, 0.2, 1)",
+                    transition: "transform 300ms ease-in",
                   }}
                 >
                   <Image src={PlayCard} alt="play" />

@@ -34,8 +34,12 @@ const Header = () => {
             }
             let list = songslist.filter((el: any) => {
               return (
-                el.track.subtitle.toLowerCase().includes(item.target.value) ||
-                el.track.title.toLowerCase().includes(item.target.value)
+                el.track.subtitle
+                  .toLowerCase()
+                  .includes(item.target.value.toLowerCase()) ||
+                el.track.title
+                  .toLowerCase()
+                  .includes(item.target.value.toLowerCase())
               );
             });
             setAlbumList(list);

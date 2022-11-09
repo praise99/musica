@@ -37,6 +37,7 @@ const Content = styled.div`
   .name {
     color: ${({ theme }) => theme.colors.light};
     opacity: 0.75;
+    margin-left: -15px;
   }
 `;
 export { Wrapper, Card, Content };
