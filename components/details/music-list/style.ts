@@ -19,7 +19,7 @@ const Card = styled.div`
   background: rgba(51, 55, 59, 0.37);
   backdrop-filter: blur(5px);
   border-radius: 15px;
-  /* height: 56px; */
+  cursor: pointer;
   width: 100%;
   padding: 8px 10px;
   margin-bottom: 10px;

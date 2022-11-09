@@ -15,10 +15,9 @@ const Cards = styled.div`
 const Card = styled.div`
   display: flex;
   align-items: center;
-  /* background: rgba(51, 55, 59, 0.37); */
   backdrop-filter: blur(5px);
   border-radius: 15px;
-  /* height: 56px; */
+  cursor: pointer;
   width: 100%;
   padding: 8px 10px;
   margin-bottom: 10px;
@@ -36,9 +35,6 @@ const Card = styled.div`
     align-items: center;
     width: 80%;
     justify-content: space-between;
-    /* @media (max-width: ${({ theme }) => theme.responsive.ipad}) {
-      width: 100%;
-    } */
   }
 
   .like {
