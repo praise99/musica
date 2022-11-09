@@ -60,6 +60,7 @@ const Release = () => {
                   width="153px"
                   alt="pic"
                   objectFit="cover"
+                  priority={true}
                 />
               </div>
               <TextRegular12 className="desc">{item.track.title}</TextRegular12>

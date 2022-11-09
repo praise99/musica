@@ -51,6 +51,7 @@ const Collection = () => {
                 width="200px"
                 alt="pic"
                 objectFit="cover"
+                priority={true}
               />
             </div>
             <Content>

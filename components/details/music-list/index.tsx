@@ -55,6 +55,7 @@ const MusicList = () => {
                     src={item.track.share.image}
                     alt="music"
                     objectFit="cover"
+                    priority={true}
                   />
                 </div>
                 <div className="none">

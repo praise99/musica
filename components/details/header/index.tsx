@@ -48,6 +48,7 @@ const Header = () => {
             src={albumData?.image}
             alt="image"
             objectFit="cover"
+            priority={true}
           />
         </div>
       </div>

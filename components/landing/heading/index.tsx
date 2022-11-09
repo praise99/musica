@@ -67,6 +67,7 @@ const Header = () => {
                         src={item.image}
                         alt="image"
                         objectFit="cover"
+                        priority={true}
                       />
                     </div>
                     <div className="desc">
